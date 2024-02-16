@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Com Buyer Verification</title>
+    <link rel="stylesheet" href="verify.css" />
+    <link rel="shortcut icon" type="x-icon" href="logo.png" />
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Protest+Strike&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="preloader" class="preload"> 
+      <div class="Header" id="pre">
+        <span class="text">ECOM</span>
+        <span class="text">BUYER</span>
+        <span class="text">PAYMENTS</span>
+      </div>
+    </div>
+
+
+    <h2>OTP VERIFICATION</h2>
+    <form class="container">
+        <div class="Email">
+            <label >EMAIL:</label>
+            <input type="email" placeholder="Enter your Email">
+        </div>
+        <div class="Number">
+            <label >MOBILE:</label>
+            <input type="text" placeholder="Enter your Mobile Number">
+        </div>
+        <button class="Verify">Verify</button>  
+    </form>
+    <h3 class="msg">YOUR ACCOUNT CREATED SUCCESSFULLY</h3>
+
+    <script>
+      var loader=document.getElementById("preloader");
+      window.addEventListener("load",function(){
+        loader.style.display = "none";
+      })
+    </script>
+  </body>
+</html>

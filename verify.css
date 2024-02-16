@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: rgb(19, 19, 147);
+  text-shadow: 2px 2px 2px rgb(255, 254, 254), 1px 2px 1px rgb(255, 254, 254),
+    1px 3px 1px rgb(255, 254, 254), 1px 4px 1px rgb(255, 254, 254),
+    1px 5px 1px rgb(255, 254, 254),1px 10px 6px rgb(16, 16, 150),1px 15px 9px rgb(16, 16, 150) ;
+}
+#preloader{
+  background: black url(./loop.gif) no-repeat center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  background-size: 20%;
+}
+#pre{
+  margin-top: 150px;
+}
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+      circle,
+      rgba(238, 174, 202, 1) 10%,
+      rgba(148, 187, 233, 1) 100%
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: screen;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  h2{
+    color: white;
+    margin-top: 30px;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .Email{
+    margin-top: 30px;
+    padding: 20px;
+    font-weight: bold;
+  }
+  .Number{
+    margin-top: 30px;
+    padding: 20px;
+    font-weight: bold;
+  }
+  input{
+    margin-left: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+  }
+button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(237, 128, 176) ;
+    text-align: center;
+    font-weight: 500;
+    width: 100px;
+  }
+  button:hover{
+    background-color:black;
+    color: rgb(237, 128, 176);
+    outline: none;
+  }
+  h3{
+    color: white;
+    margin-top: 120px;
+}

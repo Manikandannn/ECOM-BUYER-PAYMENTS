@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Com Buyer Registeration</title>
+    <link rel="stylesheet" href="register.css" />
+    <link rel="shortcut icon" type="x-icon" href="logo.png" />
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Protest+Strike&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="preloader" class="preload"> 
+      <div class="Header" id="pre">
+        <span class="text">ECOM</span>
+        <span class="text">BUYER</span>
+        <span class="text">PAYMENTS</span>
+      </div>
+    </div>
+
+
+    <h2>CREATE AN ACCOUNT</h2>
+    <form class="form">
+        <div class="Name">
+            <input type="text" placeholder="*NAME">
+        </div>
+        <div class="Number">
+            <input type="text" placeholder="*CONTACT NUMBER">
+        </div>
+        <div class="Mail">
+            <input type="email" placeholder="*Mail ID ">
+        </div>
+        <div class="DOB">
+            <input type="text" placeholder="*DOB">
+        </div>
+        <div class="Pan">
+            <input type="text" placeholder="*PAN NUMBER">
+        </div>
+        <div class="aadhar">
+            <input type="text" placeholder="*AADHAR NUMBER">
+        </div>
+        <div class="B-type">
+            <input type="text" placeholder="*BUSSINESS TYPE">
+        </div>
+        <div class="B-sector">
+            <input type="text" placeholder="*BUSSINESS SECTOR">
+        </div>
+        <div>
+            <input type="textarea"class="Descrip" placeholder="*DESCRIPTION(Below 100 words)">
+        </div>
+        <button class="sub"><a href="./verify.html">SUBMIT</a></button>
+        
+        
+    </form>
+
+    <script>
+      var loader=document.getElementById("preloader");
+      window.addEventListener("load",function(){
+        loader.style.display = "none";
+      })
+    </script>
+  </body>
+</html>

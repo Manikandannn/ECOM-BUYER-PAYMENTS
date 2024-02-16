@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Com Buyer Login Page</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="shortcut icon" type="x-icon" href="logo.png" />
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Protest+Strike&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+
+    <div id="preloader" class="preload"> 
+      <div class="Header" id="pre">
+        <span class="text">ECOM</span>
+        <span class="text">BUYER</span>
+        <span class="text">PAYMENTS</span>
+      </div>
+    </div>
+
+    <h2>LOGIN PAGE</h2>
+    <form class="container">
+        <div class="Email">
+            <label >EMAIL/MOBILE</label>
+            <input type="text" placeholder="Enter your Email OR Mobile">
+        </div>
+        <div class="Number">
+            <label >PASSWORD</label>
+            <input type="password" placeholder="Enter your Password">
+        </div>
+        <button class="verify">LOG IN</button>  
+    </form>
+    <div class="arroww"> <i  id="arrow" class="fa-solid fa-arrow-down-long"></i></div>
+    </div>
+    
+    <script>
+      var loader=document.getElementById("preloader");
+      window.addEventListener("load",function(){
+        loader.style.display = "none";
+      })
+    </script>
+
+  </body>
+</html>
